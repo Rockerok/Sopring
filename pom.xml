@@ -75,9 +75,17 @@
           <url>http://localhost:8080/manager/text</url>
           <server>TomcatServer</server>
           <username>admin</username>
-          <password>123</password>
-          <path>/client2</path>
+          <password>111</password>
+          <path>/product</path>
           <update>true</update>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>18</source>
+          <target>18</target>
         </configuration>
       </plugin>
     </plugins>
